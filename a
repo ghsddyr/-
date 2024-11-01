@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+int main(){
+    for (float i = -10; i < 10; i += 1.0f){
+        float a = i;
+        system("cls");
+        if (i >= 0 && a>=0)
+            printf("%.0f,%.0f,%.1f\n", i, i * 2,a/2);
+        else
+            printf("%.0f,%.0f,%.1f\n",- i,- i * 2,-a/2);
+        Sleep(100);
+        }
+        return 0;
+    }
